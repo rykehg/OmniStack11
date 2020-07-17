@@ -25,15 +25,18 @@ $ npm start ou yarn start
 $ cd frontend
 $ npm install ou yarn install
 $ npm start ou yarn start
+```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página localhost:3000 contendo o Projeto.
 
 ### Para o mobile:
 - Para testar o Mobile do React Native, primeiro coloque o endereço do seu servidor (ou computador) no arquivo src/services/api.js, e depois execute os comandos:
 
 - NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado!
+
 ```shell
 $ yarn global add install expo-cli
 ```
+
 ```shell
 $ cd mobile
 $ yarn install
@@ -78,15 +81,15 @@ Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extençõ
 
 OBS: Para debugar e saber como está a resposta sempre use o "console.log()"
 ---
-**FrontEnd React**
+### FrontEnd React
 - Caso vc queira dar inicio a um novo projeto de front com React podemos executar no local que queremos criar a pasta do projeto "npx create-react-app frontend" (sendo que o nome da pasta criada será "frontend"). Para iniciar o modelo de front já incluso é só executar "npm start"
 
 Lembrando que o React usa os conceitos de JSX e live-reload portanto a cada modificação de arquivo as mudanças podem ser visualizadas na hora.
 
 - Para instalar todas as dependencias do projeto executar na pasta frontend o comando "npm install"
 
-**Pacotes usados no FrontEnd**
-"npm install react-icons" - pacote com icones variados usado na aplicação - https://react-icons.netlify.com/#/
+### Pacotes usados no FrontEnd
+"npm install react-icons" - pacote com icones variados usado na aplicação - https://react-icons.netlify.com/
 "npm install react-router-dom" - pacote de configurações de rotas do react - https://www.npmjs.com/package/react-router-dom
 ---
 
