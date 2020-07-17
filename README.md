@@ -95,7 +95,7 @@ Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extençõ
 
 `$ npm install react-icons` - pacote com icones variados usado na aplicação - https://react-icons.netlify.com
 
-`$ npm install react-router-dom` - pacote de configurações de rodas do react https://www.npmjs.com/package/react-router-dom
+`$ npm install react-router-dom` - pacote de configurações de rotas do React https://www.npmjs.com/package/react-router-dom
 
 ---
 
