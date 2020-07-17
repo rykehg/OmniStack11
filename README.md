@@ -7,7 +7,8 @@
 
 ## Instalação
 
-## 1. Clone o repositório, utilizando git clone ou faça o download do repositório.
+## 1. Clone o repositório
+> utilizando git clone `https://github.com/rykehg/OmniStack11` ou faça o download do repositório.
 
 ## 2. Para quem já conhece nodeJs e seus requisitos
 > Pré-Requisitos do Projeto
@@ -26,28 +27,27 @@ $ cd frontend
 $ npm install ou yarn install
 $ npm start ou yarn start
 ```
-Assim que o processo terminar, automaticamente será aberta no seu navegador a página localhost:3000 contendo o Projeto.
+> Assim que o processo terminar, automaticamente será aberta no seu navegador a página localhost:3000 contendo o Projeto.
 
 ### Para o mobile:
 - Para testar o Mobile do React Native, primeiro coloque o endereço do seu servidor (ou computador) no arquivo src/services/api.js, e depois execute os comandos:
 
 - NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado!
-
 ```shell
 $ yarn global add install expo-cli
 ```
-
+- Excute no terminal os seguintes comandos:
 ```shell
 $ cd mobile
 $ yarn install
 $ expo start
 ```
-Assim que o processo terminar, automaticamente será aberta no seu navegador a página localhost:19002. Conecte seu emulador, ou teste o aplicativo por LAN: baixe o aplicativo Expo da Play Store ou App Store e em seguida escaneie o código QR. (Se não for por lan, tente por tunnel, espere aparecer no Metro Blunder(informações do Expo sobre o app) a mensagem Tunnel Ready então clique em tunnel e escaneie o código QR.
+> Assim que o processo terminar, automaticamente será aberta no seu navegador a página localhost:19002. Conecte seu emulador, ou teste o aplicativo por LAN: baixe o aplicativo Expo da Play Store ou App Store e em seguida escaneie o código QR. (Se não for por lan, tente por tunnel, espere aparecer no Metro Blunder(informações do Expo sobre o app) a mensagem Tunnel Ready então clique em tunnel e escaneie o código QR.
 
 ## 2. Para quem é novo no universo NodeJs
 ### Para modificar e desenvolver a aplicação
-**Instalando o NodeJs**
-Node.js® é um runtime JavaScript desenvolvido com o Chrome's V8 JavaScript engine. Ou seja um navegador que roda no servidor backend. E junto com ele o seu proprio gerenciador de pacotes o "npm".
+### Instalando o NodeJs
+> Node.js® é um runtime JavaScript desenvolvido com o Chrome's V8 JavaScript engine. Ou seja um navegador que roda no servidor backend. E junto com ele o seu proprio gerenciador de pacotes o "npm".
 - Procure a opção "Outros Downloads" no site https://nodejs.org/pt-br/
 - Nela vá até a opção "Instale Node.js usando gerenciador de pacotes." Use o recomendado para o seu sistema operacional.
 - Para WIN10 o recomendado é o  Chocolatey, para isso siga a instruções do site deles: https://chocolatey.org/install.
@@ -56,7 +56,7 @@ Node.js® é um runtime JavaScript desenvolvido com o Chrome's V8 JavaScript eng
 - Depois execute o comando de instalação do node expecificando a versão LTS mostrada na página inicial do site do NODE
 (para win10 "cisnt nodejs-lts")
 - execute os comandos "node -v" e "npm -v" para checar se ocorreu tudo bem.
-Caso vc queira iniciar um projeto novo, navegue até a pasta do seu projeto backend e digite "npm init -y"
+> Caso vc queira iniciar um projeto novo, navegue até a pasta do seu projeto backend e digite "npm init -y"
 
 - Intale o Visual Studio Code da forma que preferir. 
 Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extenções Dracula e Material Icon Theme
@@ -88,9 +88,9 @@ Lembrando que o React usa os conceitos de JSX e live-reload portanto a cada modi
 
 - Para instalar todas as dependencias do projeto executar na pasta frontend o comando "npm install"
 
-### Pacotes usados no FrontEnd
-"npm install react-icons" - pacote com icones variados usado na aplicação - https://react-icons.netlify.com/
-"npm install react-router-dom" - pacote de configurações de rotas do react - https://www.npmjs.com/package/react-router-dom
+**Pacotes usados no FrontEnd**
+```shell $ npm install react-icons``` - pacote com icones variados usado na aplicação - https://react-icons.netlify.com
+```shell npm install react-router-dom``` - pacote de configurações de rotas do react - https://www.npmjs.com/package/react-router-dom
 ---
 
 ## License
