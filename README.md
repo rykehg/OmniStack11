@@ -52,11 +52,11 @@ $ expo start
 - Nela vá até a opção "Instale Node.js usando gerenciador de pacotes." Use o recomendado para o seu sistema operacional.
 - Para WIN10 o recomendado é o  Chocolatey, para isso siga a instruções do site deles: https://chocolatey.org/install.
 - Executando o PowerShell como ADMINISTRADOR
-- Execute o comando "choco" no PowerShell para verificar se funcionou (reinicie o terminal se for preciso)
+- Execute o comando `$ choco` no PowerShell para verificar se funcionou (reinicie o terminal se for preciso)
 - Depois execute o comando de instalação do node expecificando a versão LTS mostrada na página inicial do site do NODE
 (para win10 "cisnt nodejs-lts")
-- execute os comandos "node -v" e "npm -v" para checar se ocorreu tudo bem.
-> Caso vc queira iniciar um projeto novo, navegue até a pasta do seu projeto backend e digite "npm init -y"
+- execute os comandos `$ node -v` e `$ npm -v` para checar se ocorreu tudo bem.
+> Caso vc queira iniciar um projeto novo, navegue até a pasta do seu projeto backend e digite `$ npm init -y`
 
 - Intale o Visual Studio Code da forma que preferir. 
 Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extenções Dracula e Material Icon Theme
@@ -67,31 +67,30 @@ Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extençõ
 
 **Pacotes usados no BackEnd**
 - Configaraçôes e documentação
-```$ shell npm install express``` - configurações de rotas - https://expressjs.com 
+`npm install express` - configurações de rotas - https://expressjs.com 
 
-"npm install nodemon -D" - para reiniciar o servidor assim que um arquivo do node é salvo. O "-D" salva ele como uma ferramenta de desenvolvedor - https://github.com/remy/nodemon#nodemon
+`$ npm install nodemon -D` - para reiniciar o servidor assim que um arquivo do node é salvo. O "-D" salva ele como uma ferramenta de desenvolvedor - https://github.com/remy/nodemon#nodemon
 
-"npm install knex" - query builder para sqlite, mssql, postgres... - http://knexjs.org
-"npm install sqlite3" - para fazer a conecção com com banco usando o knex" - http://knexjs.org
-"npx knex init" - para iniciar um novo projeto com o knex o knexfile.js terá as informações de configuração do banco para a aplicação
-"npx knex migrate:make create_NomeDaTabela" - arquivo que controla a criação de tabelas no banco
-"npx knex migrate:latest" - executa a criação das tabelas configuradas nos arquivos criados pelo knex (Exemplos na pasta "src\database\migrations")
+`$ npm install knex` - query builder para sqlite, mssql, postgres... - http://knexjs.org
+`$ npm install sqlite3` - para fazer a conecção com com banco usando o knex" - http://knexjs.org
+`$ npx knex init` - para iniciar um novo projeto com o knex o knexfile.js terá as informações de configuração do banco para a aplicação
+`$ npx knex migrate:make create_NomeDaTabela` - arquivo que controla a criação de tabelas no banco
+`$ npx knex migrate:latest` - executa a criação das tabelas configuradas nos arquivos criados pelo knex (Exemplos na pasta "src\database\migrations")
 
-"npm install cors" - especifica as URLs que podem acessar a aplicação - https://www.npmjs.com/package/cors
+`$ npm install cors` - especifica as URLs que podem acessar a aplicação - https://www.npmjs.com/package/cors
 
 > Para debugar e saber como está a resposta sempre use o console.log()
 ---
 
 ### FrontEnd React
-- Caso vc queira dar inicio a um novo projeto de front com React podemos executar no local que queremos criar a pasta do projeto "npx create-react-app frontend" (sendo que o nome da pasta criada será "frontend"). Para iniciar o modelo de front já incluso é só executar "npm start"
-
-Lembrando que o React usa os conceitos de JSX e live-reload portanto a cada modificação de arquivo as mudanças podem ser visualizadas na hora.
-
-- Para instalar todas as dependencias do projeto executar na pasta frontend o comando "npm install"
+- Caso vc queira dar inicio a um novo projeto de front com React podemos executar no local que queremos criar a pasta do projeto `$ npx create-react-app frontend` (sendo que o nome da pasta criada será "frontend"). Para iniciar o modelo de front já incluso é só executar `$ npm start`
+> O React usa os conceitos de JSX e live-reload portanto a cada modificação de arquivo as mudanças podem ser visualizadas na hora.
+- Para instalar todas as dependencias do projeto executar na pasta frontend o comando `$ npm install`.
 
 **Pacotes usados no FrontEnd**
-```shell $ npm install react-icons``` - pacote com icones variados usado na aplicação - https://react-icons.netlify.com
-```shell npm install react-router-dom``` - pacote de configurações de rotas do react - https://www.npmjs.com/package/react-router-dom
+`$ npm install react-icons` - pacote com icones variados usado na aplicação - https://react-icons.netlify.com
+`$ npm install react-router-dom` - pacote de configurações de rodas do react https://www.npmjs.com/package/react-router-dom
+
 ---
 
 ## License
