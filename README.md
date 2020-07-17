@@ -72,9 +72,13 @@ Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extençõ
 `$ npm install nodemon -D` - para reiniciar o servidor assim que um arquivo do node é salvo. O "-D" salva ele como uma ferramenta de desenvolvedor - https://github.com/remy/nodemon#nodemon
 
 `$ npm install knex` - query builder para sqlite, mssql, postgres... - http://knexjs.org
+
 `$ npm install sqlite3` - para fazer a conecção com com banco usando o knex" - http://knexjs.org
+
 `$ npx knex init` - para iniciar um novo projeto com o knex o knexfile.js terá as informações de configuração do banco para a aplicação
+
 `$ npx knex migrate:make create_NomeDaTabela` - arquivo que controla a criação de tabelas no banco
+
 `$ npx knex migrate:latest` - executa a criação das tabelas configuradas nos arquivos criados pelo knex (Exemplos na pasta "src\database\migrations")
 
 `$ npm install cors` - especifica as URLs que podem acessar a aplicação - https://www.npmjs.com/package/cors
@@ -88,7 +92,9 @@ Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extençõ
 - Para instalar todas as dependencias do projeto executar na pasta frontend o comando `$ npm install`.
 
 **Pacotes usados no FrontEnd**
+
 `$ npm install react-icons` - pacote com icones variados usado na aplicação - https://react-icons.netlify.com
+
 `$ npm install react-router-dom` - pacote de configurações de rodas do react https://www.npmjs.com/package/react-router-dom
 
 ---
