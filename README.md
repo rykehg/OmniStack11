@@ -67,7 +67,7 @@ Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extençõ
 
 **Pacotes usados no BackEnd**
 - Configaraçôes e documentação
-"npm install express" - configurações de rotas - https://expressjs.com 
+```$ shell npm install express``` - configurações de rotas - https://expressjs.com 
 
 "npm install nodemon -D" - para reiniciar o servidor assim que um arquivo do node é salvo. O "-D" salva ele como uma ferramenta de desenvolvedor - https://github.com/remy/nodemon#nodemon
 
@@ -79,8 +79,9 @@ Para deixa-lo mais amigavel ao JavaScript e NodeJs podemos instalar as extençõ
 
 "npm install cors" - especifica as URLs que podem acessar a aplicação - https://www.npmjs.com/package/cors
 
-OBS: Para debugar e saber como está a resposta sempre use o "console.log()"
+> Para debugar e saber como está a resposta sempre use o console.log()
 ---
+
 ### FrontEnd React
 - Caso vc queira dar inicio a um novo projeto de front com React podemos executar no local que queremos criar a pasta do projeto "npx create-react-app frontend" (sendo que o nome da pasta criada será "frontend"). Para iniciar o modelo de front já incluso é só executar "npm start"
 
