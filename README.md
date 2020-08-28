@@ -1,16 +1,20 @@
 
 # OmniStack11
 
-> Projeto simples de CRUD usando NodeJs React e React Native com o Expo
-
 > #Node.Js #React #CRUD #ReactNative #SQLite 
+
+> Projeto simples de CRUD usando NodeJs React e React Native com o Expo
 
 ## Instalação
 
 ## 1. Clone o repositório
-> utilizando git clone `https://github.com/rykehg/OmniStack11` ou faça o download do repositório.
+> Utilizando o comando a seguir com o git bash
+>```shell
+>git clone `https://github.com/rykehg/OmniStack11` 
+>```
+>Ou faça o download do repositório.
 
-## 2. Para quem já conhece nodeJs e seus requisitos
+## 2. Para quem já conhece Node.js e seus requisitos
 > Pré-Requisitos do Projeto
 > git, NodeJs, express, sqlite, knex, react, react-native, expo
 
